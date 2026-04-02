@@ -9,7 +9,8 @@
         "microturtle": "github:microsoft/pxt-microturtle#v0.0.10",
         "servo": "*",
         "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.7",
-        "coderdojo-controller": "github:jimd80/pxt-coderdojo-controller#v1.0.5"
+        "coderdojo-controller": "github:jimd80/pxt-coderdojo-controller#v1.0.5",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6"
     },
     "files": [
         "main.blocks",

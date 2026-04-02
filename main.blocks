@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="YTrNim_W6@H#dulR.mG4" x="511" y="-79"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="U|:}H*90/^?%)2]ZDTL4"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="YTrNim_W6@H#dulR.mG4" x="470" y="-136"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="U|:}H*90/^?%)2]ZDTL4"><field name="LEDS">`
         # # . # # 
         # # . # # 
         . # # # . 
@@ -10,7 +10,7 @@
         . . . . . 
         # # # # # 
         . . . . .
-        `</field></block></next></block></next></block></statement></block><block type="input_on_sound" id=".wkT#/z^=PnR`^0::AbP" x="793" y="-3"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="record_startRecording" id="E%]JTg=gSz9B(m5cFGK["><field name="mode">record.BlockingState.Blocking</field><next><block type="device_show_leds" id="wgM{r)U)Abk*ObO2wM/~"><field name="LEDS">`
+        `</field></block></next></block></next></block></statement></block><block type="input_on_sound" id=".wkT#/z^=PnR`^0::AbP" x="752" y="-60"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="record_startRecording" id="E%]JTg=gSz9B(m5cFGK["><field name="mode">record.BlockingState.Blocking</field><next><block type="device_show_leds" id="wgM{r)U)Abk*ObO2wM/~"><field name="LEDS">`
         # # . # # 
         # # . # # 
         . # # # . 
@@ -22,13 +22,13 @@
         . . . . . 
         # # # # # 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="F[:|Gure%Jef%d7)FwYE" x="41" y="57"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="music_playable_play" id="%_/d05{c7zrti5|]B[We"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="^%o}}Y,VkLk1A]%miV*c"><value name="melody"><shadow type="melody_editor" id="E4k/;KY]cfbICt{oV!`d"><field name="melody">"- - - - G F G A "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="4|ND/[aK/8(agpgIjfNE"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="music_playable_play" id="(hUaB1OG4E5OkkezW@7/"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="s!Tsbm~)2jX*lOqPe-r%"><value name="melody"><shadow type="melody_editor" id="l1_47=sTV#1AMR@*ne=H"><field name="melody">"G F E D C D A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="-%+E,a=Aj5s2Wvc7QUlb"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">140</field></shadow></value></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="h865ASHA!DyZhkE^Ya/Q" x="121" y="79"><statement name="HANDLER"><block type="device_show_leds" id="UmbfV[IxH)3rK:K%II4P"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="h865ASHA!DyZhkE^Ya/Q" x="80" y="22"><statement name="HANDLER"><block type="device_show_leds" id="UmbfV[IxH)3rK:K%II4P"><field name="LEDS">`
         # # . # # 
         # # . # # 
         . . . . . 
         # # # # # 
         . . . . .
-        `</field></block></statement></block><block type="device_button_event" id="]*I#HBN/Q:Xge?Z}cK?|" x="221" y="425"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="power_fullPowerOn" id="(C{ij|e6%n@UqD98`n!7"><field name="source">FullPowerSource.A</field></block></statement></block><block type="input_logo_event" id="RIComrfif]PFMxsDA?g1" x="-20" y="462"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_leds" id="I9-.,r!/Zx`[2*G.fUOD"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_gesture_event" id="F[:|Gure%Jef%d7)FwYE" x="49" y="48"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="music_playable_play" id="%_/d05{c7zrti5|]B[We"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="^%o}}Y,VkLk1A]%miV*c"><value name="melody"><shadow type="melody_editor" id="E4k/;KY]cfbICt{oV!`d"><field name="melody">"- - - - G F G A "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="4|ND/[aK/8(agpgIjfNE"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="music_playable_play" id="(hUaB1OG4E5OkkezW@7/"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="s!Tsbm~)2jX*lOqPe-r%"><value name="melody"><shadow type="melody_editor" id="l1_47=sTV#1AMR@*ne=H"><field name="melody">"G F E D C D A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="-%+E,a=Aj5s2Wvc7QUlb"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">140</field></shadow></value></shadow></value></block></next></block></statement></block><block type="device_button_event" id="]*I#HBN/Q:Xge?Z}cK?|" x="180" y="368"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="power_fullPowerOn" id="(C{ij|e6%n@UqD98`n!7"><field name="source">FullPowerSource.A</field></block></statement></block><block type="input_logo_event" id="RIComrfif]PFMxsDA?g1" x="-61" y="405"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_leds" id="I9-.,r!/Zx`[2*G.fUOD"><field name="LEDS">`
         # # . # # 
         . . . . . 
         . . . . . 
@@ -40,4 +40,4 @@
         . . . . . 
         # # # # # 
         . . . . .
-        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="W^:b;#)(O:m~0D}:{;d$" x="412" y="568"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="power_lowPowerPause" id="a{g9TdPjxo/irBmy-oSv"><value name="interval"><shadow type="longTimePicker" id="qGpuq3N:@izOS?wc.FA."><field name="ms">3600000</field></shadow></value></block></statement></block></xml>
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="W^:b;#)(O:m~0D}:{;d$" x="371" y="511"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="power_lowPowerPause" id="a{g9TdPjxo/irBmy-oSv"><value name="interval"><shadow type="longTimePicker" id="qGpuq3N:@izOS?wc.FA."><field name="ms">3600000</field></shadow></value></block></statement></block></xml>
